@@ -1,5 +1,6 @@
 "use client"
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const navItems = [
@@ -15,15 +16,16 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/94">
       <div className="flex h-20 items-center w-full md:w-5/6 lg:w-4/5 xl:w-3/4 mx-auto px-4 sm:px-6 lg:px-8">
-        <a href="/" className="mr-8 flex items-center space-x-2">
+        <Link href="/" className="mr-8 flex items-center space-x-2">
           <span className="font-extrabold font-serif text-2xl sm:text-3xl text-yellow-500 tracking-tight">
             Palace-OS
           </span>
-        </a>
+
+        </Link>
         <div className="flex flex-1 items-center justify-end">
           <nav className="flex items-center gap-6 md:gap-10 text-base">
             {navItems.map((item) => (
-              <a
+              <Link
                 key={item.name}
                 href={item.href}
                 className={cn(
@@ -32,7 +34,7 @@ export function Header() {
                 )}
               >
                 {item.name}
-              </a>
+              </Link>
             ))}
           </nav>
         </div>

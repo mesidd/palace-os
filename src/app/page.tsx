@@ -58,7 +58,7 @@ export default function Home() {
                     <span className="text-xs font-mono px-2 py-1 rounded bg-secondary text-secondary-foreground">Article</span>
                   </div>
                   <CardDescription className="pt-2">
-                    How Mumbai's chaotic yet resilient systems inspired my approach to building fault-tolerant software.
+                    How Mumbai&apos;s chaotic yet resilient systems inspired my approach to building fault-tolerant software.
                   </CardDescription>
                 </CardHeader>
               </Card>
