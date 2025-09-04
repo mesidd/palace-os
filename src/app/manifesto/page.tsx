@@ -15,9 +15,9 @@ export default function ManifestoPage() {
   ];
 
   return (
-    <main className="container mx-auto py-24 md:py-32 px-4">
+    <main className="container mx-auto py-24 md:py-38 px-4">
       <div className="max-w-3xl mx-auto">
-        <h1 className="font-serif text-5xl md:text-6xl font-bold tracking-tighter text-center text-white">
+        <h1 className="font-serif text-5xl md:text-6xl font-bold tracking-tighter text-center text-amber-400">
           The Craftsman&apos;s Codex
         </h1>
 
