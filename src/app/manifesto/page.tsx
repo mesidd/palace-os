@@ -18,7 +18,7 @@ export default function ManifestoPage() {
     <main className="container mx-auto py-24 md:py-32 px-4">
       <div className="max-w-3xl mx-auto">
         <h1 className="font-serif text-5xl md:text-6xl font-bold tracking-tighter text-center text-white">
-          The Craftsman's Codex
+          The Craftsman&apos;s Codex
         </h1>
 
         <p className="mt-8 text-center text-lg md:text-xl text-slate-200 leading-relaxed">
