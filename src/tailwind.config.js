@@ -14,7 +14,7 @@ const config = {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "100%",
+        "2xl": "1400px",
       },
     },
     extend: {
@@ -78,7 +78,10 @@ const config = {
       },
     },
   },
-  plugins: [animate],
+  plugins: [
+    animate, 
+    require('@tailwindcss/typography')
+  ],
 }
 
 export default config
