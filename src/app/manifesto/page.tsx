@@ -21,7 +21,7 @@ export default function ManifestoPage() {
           The Craftsman&apos;s Codex
         </h1>
 
-        <p className="mt-8 text-center text-lg md:text-xl text-slate-200 leading-relaxed">
+        <p className="mt-8 text-lg md:text-xl text-slate-200 leading-relaxed text-justify">
           Software is more than a craft; it is a philosophy applied. It is the art of breathing life into logic, of building resilient systems in a universe of chaos. This codex is the set of first principles that guides my hand—a commitment to building not just for the now, but for the forever.
         </p>
 
@@ -36,7 +36,7 @@ export default function ManifestoPage() {
                 <h2 className="font-serif text-3xl font-bold tracking-tight text-slate-50">
                   {axiom.title}
                 </h2>
-                <p className="mt-4 text-lg text-slate-300 leading-loose">
+                <p className="mt-4 text-lg text-slate-300 leading-loose text-justify">
                   {axiom.text}
                 </p>
               </div>

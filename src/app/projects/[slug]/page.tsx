@@ -3,7 +3,6 @@ import { Button } from '@/components/ui/button';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 
-
 const projectsData = {
     "aicontextoptimizer": {
         title: "AIContextOptimizer",
@@ -12,19 +11,19 @@ const projectsData = {
         githubUrl: "https://github.com/your-username/aicontextoptimizer",
         content: (
             <>
-                <h2 className="font-serif text-3xl font-bold tracking-tight text-purple-400 mt-12 mb-4">The Problem: The High Cost of Context</h2>
-                <p>In the world of Large Language Models, context is king, but it&apos;s also expensive. Every token sent to an API costs money and increases latency. My core question was: <em>how much of the context we provide is truly necessary for a high-quality response?</em></p>
+                <h2 className="font-serif text-3xl font-bold tracking-tigh mt-12 mb-4">The Problem: The High Cost of Context</h2>
+                <p className='text-muted-foreground text-justify'>In the world of Large Language Models, context is king, but it&apos;s also expensive. Every token sent to an API costs money and increases latency. My core question was: <em>how much of the context we provide is truly necessary for a high-quality response?</em></p>
                 
-                <h2 className="font-serif text-3xl font-bold tracking-tight text-purple-400 mt-12 mb-4">The Process: From C++ to the Edge</h2>
-                <p>I theorized that a significant portion of context could be compressed or summarized without losing semantic meaning. I decided to build a solution using C++ for its raw performance in text processing and compile it to WebAssembly (WASM) to run it anywhere, especially on edge networks for minimal latency.</p>
+                <h2 className="font-serif text-3xl font-bold tracking-tight mt-12 mb-4">The Process: From C++ to the Edge</h2>
+                <p className='text-muted-foreground text-justify'>I theorized that a significant portion of context could be compressed or summarized without losing semantic meaning. I decided to build a solution using C++ for its raw performance in text processing and compile it to WebAssembly (WASM) to run it anywhere, especially on edge networks for minimal latency.</p>
                 <ul className="list-disc list-outside space-y-2 pl-5 my-6">
-                    <li><strong>Algorithm Design:</strong> Developing a custom text-ranking and summarization algorithm in C++.</li>
-                    <li><strong>Compilation to WASM:</strong> Using Emscripten to compile the C++ core into a highly optimized WASM binary.</li>
-                    <li><strong>Edge Integration:</strong> Deploying the WASM module on Vercel&apos;s Edge Network, intercepting API requests to process context on the fly.</li>
+                    <li className='text-muted-foreground text-justify'><strong className='text-white'>Algorithm Design:</strong> Developing a custom text-ranking and summarization algorithm in C++.</li>
+                    <li className='text-muted-foreground text-justify'><strong className='text-white'>Compilation to WASM:</strong> Using Emscripten to compile the C++ core into a highly optimized WASM binary.</li>
+                    <li className='text-muted-foreground text-justify'><strong className='text-white'>Edge Integration:</strong> Deploying the WASM module on Vercel&apos;s Edge Network, intercepting API requests to process context on the fly.</li>
                 </ul>
 
-                <h2 className="font-serif text-3xl font-bold tracking-tight text-purple-400 mt-12 mb-4">Lessons Learned</h2>
-                <p>This project was a deep dive into the intersection of low-level performance and modern cloud architecture. It reinforced a key principle from my codex: the most elegant solution is often about what you can remove, not what you can add. By removing redundant tokens, we achieved a faster, cheaper, and more efficient system.</p>
+                <h2 className="font-serif text-3xl font-bold tracking-tight mt-12 mb-4">Lessons Learned</h2>
+                <p className='text-muted-foreground text-justify'>This project was a deep dive into the intersection of low-level performance and modern cloud architecture. It reinforced a key principle from my codex: the most elegant solution is often about what you can remove, not what you can add. By removing redundant tokens, we achieved a faster, cheaper, and more efficient system.</p>
             </>
         )
     },

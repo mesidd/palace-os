@@ -45,8 +45,9 @@ export default function ContactPage() {
                                 <Image
                                     src="/profile.jpg"
                                     alt="Siddhartha Sharma"
-                                    layout="fill"
-                                    objectFit="cover"
+                                    fill
+                                    className="object-cover"
+                                    sizes="160px"
                                     priority
                                 />
                             </div>
@@ -56,7 +57,7 @@ export default function ContactPage() {
                         </div>
                         <div className="md:col-span-2">
                             <h2 className="font-serif text-3xl font-bold mb-4">My Journey</h2>
-                            <p className="text-lg text-muted-foreground leading-relaxed">
+                            <p className="text-lg text-muted-foreground leading-relaxed text-justify">
                                 I am a craftsman, a philosopher, and a final-year student on a mission to build timeless, resilient software. My journey, from the vibrant streets of Mumbai to the lecture halls of the IITs, has taught me that the most profound technological solutions are born from a deep understanding of first principles—in science, in art, and in the human experience.
                                 <br /><br />
                                 My work is a continuous exploration of this intersection. I don&apos;t just write code; I build systems that are simple, antifragile, and imbued with a purpose. This digital palace is a chronicle of that journey.
@@ -96,4 +97,3 @@ export default function ContactPage() {
         </main>
     );
 }
-

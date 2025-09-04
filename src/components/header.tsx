@@ -17,7 +17,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/94">
       <div className="flex h-20 items-center w-full md:w-5/6 lg:w-4/5 xl:w-3/4 mx-auto px-4 sm:px-6 lg:px-8">
         <Link href="/" className="mr-8 flex items-center space-x-2">
-          <span className="font-extrabold font-serif text-2xl sm:text-3xl text-muted-foreground tracking-tight">
+          <span className="font-bold font-serif hover:text-white text-2xl sm:text-3xl text-muted-foreground tracking-tight">
             Palace-OS
           </span>
 
@@ -29,7 +29,7 @@ export function Header() {
                 key={item.name}
                 href={item.href}
                 className={cn(
-                  "transition-all duration-300 ease-in-out hover:text-amber-300 hover:scale-105 text-muted-foreground",
+                  "transition-all duration-300 ease-in-out font-bold hover:text-white hover:scale-105 text-muted-foreground",
                   pathname === item.href ? "text-amber-300 font-bold" : "text-muted-foreground"
                 )}
               >

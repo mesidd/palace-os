@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 // Your central database for all articles.
 const articlesData = [
   {
-    title: "Lessons from the Maximum City",
+    title: "Lessons from the Mumbai City",
     slug: "lessons-from-mumbai",
     description: "How Mumbai's chaotic yet resilient systems inspired my approach to building fault-tolerant software.",
     publishDate: "September 03, 2025",

@@ -22,10 +22,10 @@ export default function Home() {
             </p>
           </div>
           <div className="mt-8 flex gap-4">
-            <Button asChild size="lg" className="bg-yellow-500 hover:bg-yellow-500 text-[#ffffff] font-semibold shadow-lg">
+            <Button asChild size="lg" className="bg-yellow-500 hover:bg-amber-400 hover:scale-102 text-[#ffffff] font-semibold shadow-lg">
               <Link href="/projects">Explore the Treasury</Link>
             </Button>
-            <Button asChild size="lg" className="bg-yellow-500 hover:bg-yellow-500 text-[#ffffff] font-semibold shadow-lg">
+            <Button asChild size="lg" className="bg-yellow-500 hover:scale-102 hover:bg-amber-400 text-[#ffffff] font-semibold shadow-lg">
               <Link href="/manifesto">Read the Manifesto</Link>
             </Button>
           </div>

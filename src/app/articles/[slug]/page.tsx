@@ -12,15 +12,15 @@ const articlesContent = {
         content: (
             <>
                 <p className="lead">
-                    Mumbai is a city of organized chaos. Millions of people, a network of aging infrastructure, and a relentless monsoon season create a system that, by all logical accounts, should fail daily. Yet, it doesn't. This city's inherent antifragility holds profound lessons for any engineer building systems in the equally chaotic digital world.
+                    Mumbai is a city of organized chaos. Millions of people, a network of aging infrastructure, and a relentless monsoon season create a system that, by all logical accounts, should fail daily. Yet, it doesn&apos;t. This city&apos;s inherent antifragility holds profound lessons for any engineer building systems in the equally chaotic digital world.
                 </p>
                 <h2 className="font-serif text-3xl font-bold tracking-tight text-primary mt-12 mb-4">The Dabbawala Protocol</h2>
                 <p>
-                    Consider the Dabbawalas, Mumbai's famous lunchbox delivery network. With near-zero technology, they achieve a Six Sigma level of accuracy. Their system is decentralized, relies on simple, robust heuristics, and has redundancy built in at every node. It's a masterclass in building systems that are resilient not because they are complex, but because they are profoundly simple.
+                    Consider the Dabbawalas, Mumbai&apos;s famous lunchbox delivery network. With near-zero technology, they achieve a Six Sigma level of accuracy. Their system is decentralized, relies on simple, robust heuristics, and has redundancy built in at every node. It&apos;s a masterclass in building systems that are resilient not because they are complex, but because they are profoundly simple.
                 </p>
                 <h2 className="font-serif text-3xl font-bold tracking-tight text-primary mt-12 mb-4">Graceful Degradation</h2>
                 <p>
-                    When the local trains are flooded, the city doesn't shut down. It slows, adapts, and finds other paths. This principle of graceful degradation—where a system maintains partial functionality even when parts of it are failing—is a critical lesson. Our software should not be a fragile house of cards that collapses at the first error. It should be a banyan tree, capable of surviving even when it loses a branch.
+                    When the local trains are flooded, the city doesn&apos;t shut down. It slows, adapts, and finds other paths. This principle of graceful degradation—where a system maintains partial functionality even when parts of it are failing—is a critical lesson. Our software should not be a fragile house of cards that collapses at the first error. It should be a banyan tree, capable of surviving even when it loses a branch.
                 </p>
             </>
         )
