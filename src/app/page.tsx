@@ -14,7 +14,7 @@ export default function Home() {
             <h1 className="font-serif text-6xl md:text-8xl font-bold tracking-tighter">
               Siddhartha Sharma
             </h1>
-            <h2 className="mt-4 font-sans text-2xl md:text-4xl font-semibold tracking-tight text-yellow-400">
+            <h2 className="mt-4 font-sans text-2xl md:text-4xl font-semibold tracking-tight text-amber-400">
               Ancient Software. Modern Solutions.
             </h2>
             <p className="mt-8 max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground tracking-wide">
@@ -22,10 +22,10 @@ export default function Home() {
             </p>
           </div>
           <div className="mt-8 flex gap-4">
-            <Button asChild size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-[#ffffff] font-semibold shadow-lg">
+            <Button asChild size="lg" className="bg-yellow-500 hover:bg-yellow-500 text-[#ffffff] font-semibold shadow-lg">
               <Link href="/projects">Explore the Treasury</Link>
             </Button>
-            <Button asChild variant="secondary" size="lg" className="bg-teal-500 hover:bg-teal-600 text-[#ffffff] font-semibold shadow-lg">
+            <Button asChild size="lg" className="bg-yellow-500 hover:bg-yellow-500 text-[#ffffff] font-semibold shadow-lg">
               <Link href="/manifesto">Read the Manifesto</Link>
             </Button>
           </div>
