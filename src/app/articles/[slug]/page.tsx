@@ -51,10 +51,10 @@ export async function generateMetadata({ params: rawParams }: { params: { slug: 
     return { title: `${article.title} | Siddhartha Sharma`, description: article.description };
 }
 
-type ArticlePageProps = { params: { slug: ArticleSlug } | Promise<{ slug: ArticleSlug }> };
+type ArticlePageProps = { params: { slug: ArticleSlug } };
 
-export default async function ArticlePage({params: rawParams}: ArticlePageProps) {
-    const params = await rawParams;
+export default async function ArticlePage({ params }: ArticlePageProps) {
+    
     const {slug} = params;
 
     const article = articlesContent[slug];
