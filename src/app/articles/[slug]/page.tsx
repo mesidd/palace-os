@@ -42,8 +42,7 @@ const articlesContent = {
 type ArticlesContent = typeof articlesContent;
 type ArticleSlug = keyof ArticlesContent;
 
-export async function generateMetadata({ params: rawParams }: { params: { slug: ArticleSlug } | Promise<{slug: ArticleSlug}>}): Promise<Metadata> {
-    const params = await rawParams;
+export async function generateMetadata({ params }: { params: { slug: ArticleSlug } }) : Promise<Metadata> {
     const {slug} = params;
     const article = articlesContent[slug];
 
@@ -51,10 +50,10 @@ export async function generateMetadata({ params: rawParams }: { params: { slug: 
     return { title: `${article.title} | Siddhartha Sharma`, description: article.description };
 }
 
-type ArticlePageProps = { params: { slug: ArticleSlug } };
+interface ArticlePageProps { params: { slug: ArticleSlug } };
 
 export default async function ArticlePage({ params }: ArticlePageProps) {
-    
+
     const {slug} = params;
 
     const article = articlesContent[slug];
