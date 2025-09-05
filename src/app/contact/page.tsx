@@ -1,3 +1,4 @@
+import { Terminal } from "@/components/terminal";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Github, Linkedin, Mail } from "lucide-react";
 import Image from 'next/image';
@@ -26,7 +27,8 @@ const contactLinks = [
 
 export default function ContactPage() {
     return (
-        <main className="bg-background bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]">
+        // <main className="bg-background bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]">
+        <main>
             <div className="container mx-auto py-24 md:py-32 px-4">
                 <div className="max-w-4xl mx-auto -mt-8">
                     {/* Section 1: The Envoy's Introduction (About Me) */}
