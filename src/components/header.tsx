@@ -7,6 +7,7 @@ import { useTerminalStore } from "@/stores/terminalStore";
 const navItems = [
   { name: "Manifesto", href: "/manifesto" },
   { name: "Treasury", href: "/projects" },
+  { name: "Museum", href: "/museum" },
   { name: "Library", href: "/articles" },
   { name: "Envoy", href: "/contact" },
   { name: "Oracle", action: "openTerminal" },
