@@ -21,7 +21,8 @@ const articlesData = [
 
 export default function ArticlesPage() {
   return (
-    <main className="bg-background bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]">
+    // <main className="bg-background bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]">
+    <main>
         <div className="container mx-auto py-24 md:py-32 px-4">
             <div className="max-w-4xl mx-auto">
                 <div className="text-center mb-16">
