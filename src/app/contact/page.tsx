@@ -1,4 +1,3 @@
-import { Terminal } from "@/components/terminal";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Github, Linkedin, Mail } from "lucide-react";
 import Image from 'next/image';

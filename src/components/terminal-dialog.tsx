@@ -5,7 +5,7 @@ import {
     Dialog,
     DialogContent,
     DialogTitle,
-    DialogHeader
+    // DialogHeader
 } from "@/components/ui/dialog"
 
 import { Terminal } from "@/components/terminal";

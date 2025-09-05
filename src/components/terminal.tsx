@@ -92,7 +92,7 @@ export function Terminal() {
       onClick={() => inputRef.current?.focus()}
     >
       <p>Welcome to the Palace-OS Terminal.</p>
-      <p className="mb-4">Type <span className="text-cyan-400">'help'</span> to see the list of available commands.</p>
+      <p className="mb-4">Type <span className="text-cyan-400">&apos;help&apos;</span> to see the list of available commands.</p>
       
       {history.map((line, index) => (
         <div key={index} className="mb-2">

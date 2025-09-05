@@ -25,11 +25,8 @@ import {
   CommandList,
   CommandSeparator,
 } from "@/components/ui/command"
-interface Props {
-  // Add any props you need
-}
 
-export function CommandMenu(props: Props) {
+export function CommandMenu() {
   const router = useRouter()
   const [open, setOpen] = React.useState(false)
 
