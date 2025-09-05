@@ -1,12 +1,14 @@
+"use client"
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import React from "react";
 
 export default function Home() {
+  
   return (
     <>
-      <div className="absolute inset-0 -z-10 h-full w-full bg-background bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
-      
+      {/* <div className="absolute inset-0 -z-10 h-full w-full bg-background bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div> */}
       <main className="flex-1">
         {/* SECTION 2: HERO PAGE */}
         <section className="flex flex-col items-center justify-center text-center py-32 md:py-48">
@@ -32,8 +34,8 @@ export default function Home() {
         </section>
 
         {/* SECTION 2: DISPATCHES FROM THE KINGDOM */}
-        <section className="container mx-auto pb-32">
-          <h3 className="text-2xl font-semibold tracking-tight text-center mb-8">
+        <section className="container mx-auto pb-32 mb-32 mt-12">
+          <h3 className="text-2xl font-bold tracking-tight text-center mb-8 text-amber-400 md:text-4xl">
             Dispatches From The Kingdom
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
