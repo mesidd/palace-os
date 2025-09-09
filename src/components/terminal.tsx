@@ -1,6 +1,9 @@
 "use client"
 
 import React, { useState, useRef, useEffect } from 'react';
+// import { useRouter } from "next/navigation";
+
+// const router = useRouter();
 
 const commands = {
   help: {
@@ -13,7 +16,9 @@ const commands = {
           <li><span className="font-semibold text-white">email</span> - Show my email address.</li>
           <li><span className="font-semibold text-white">github</span> - Open my GitHub profile.</li>
           <li><span className="font-semibold text-white">linkedin</span> - Open my LinkedIn profile.</li>
+          <li><span className="font-semibold text-white">ask</span> - Navigate to sanctum page.</li>
           <li><span className="font-semibold text-white">clear</span> - Clear the terminal screen.</li>
+          
         </ul>
       </div>
     )
@@ -40,10 +45,22 @@ const commands = {
       return "Opening LinkedIn profile...";
     }
   },
+  ask: {
+  description: "Navigate to the Sanctum page.",
+  output: () => {
+    // If using Next.js App Router
+    window.location.href = "/sanctum";
+
+    // Or, if you prefer using Next.js Router in a client component:
+   
+    // router.push("/sanctum");
+    return "Navigating to Sanctum page...";
+  }
+},
   clear: {
     description: "Clear the terminal screen.",
     output: null
-  }
+  },
 };
 
 type Command = keyof typeof commands;

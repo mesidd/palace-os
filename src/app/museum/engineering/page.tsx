@@ -1,8 +1,6 @@
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import Link from "next/link";
 
-// Upgraded exhibits data with slugs and detailed content
-// Upgraded exhibits data with slugs and detailed content
 const exhibits = [
   {
     slug: "conways-law",
